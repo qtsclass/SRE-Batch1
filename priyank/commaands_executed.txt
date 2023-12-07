@@ -69,7 +69,7 @@ Grey" > Colors.txt
 36.	I want the count of word Mar in access.log and save it to count_mar.txt in push it into submission directory.
 37.	perform tar and zip of tomcat_log and apache_log and compare which format compressed more in MB
 38.	Check the ports which are in Listening mode and save it in ports.txt in submission directory.
-	netstat -lntup | grep LISTEN
+	netstat -lntup | grep LISTEN >> ports.txt
 39.	Check the tomcat9 and httpd services are running or not if not run those services and now check the ports which are in listening mode and save the output in ports_service.txt
 40.	Check the connectivity to 8.8.8.8 and save it connect.txt in the push it into submission directory.
 	ping 8.8.8.8 >> connect.txt
