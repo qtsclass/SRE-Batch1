@@ -33,7 +33,7 @@ Purple
 Grey" > Colors.txt
 
 14.	To find the difference between fruits.txt and Colors.txt file.
-	diff fruits.txt and Colors.txt
+	diff fruits.txt Colors.txt
 15.	Navigate to your home directory and create a directory named submission directory..
 16.	Change the permissions of the practice_<yourname> directory to all can read, write and access.
 	chmod 777 practice_<yourname>
