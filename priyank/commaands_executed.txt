@@ -76,5 +76,5 @@ Grey" > Colors.txt
 	traceroute www.google.com >> connect_url.txt
 	mv connect_url.txt ./submision
 42.	I want to know the ip address and hostname of your server. Save it host_details.txt in push it into submission directory.
-	hostname -I && hostname hostname -i >> hostdetails.txt
+	hostname -I && hostname >> hostdetails.txt
 	mv hostdetails.txt ./submision
