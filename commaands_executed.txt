@@ -33,7 +33,7 @@ Purple
 Grey" > Colors.txt
 
 14.	To find the difference between fruits.txt and Colors.txt file.
-	diff fruits.txt and Colors.txt
+	diff fruits.txt Colors.txt
 15.	Navigate to your home directory and create a directory named submission directory..
 16.	Change the permissions of the practice_<yourname> directory to all can read, write and access.
 	chmod 777 practice_<yourname>
@@ -69,6 +69,7 @@ Grey" > Colors.txt
 36.	I want the count of word Mar in access.log and save it to count_mar.txt in push it into submission directory.
 37.	perform tar and zip of tomcat_log and apache_log and compare which format compressed more in MB
 38.	Check the ports which are in Listening mode and save it in ports.txt in submission directory.
+	netstat -lntup | grep LISTEN >> ports.txt
 39.	Check the tomcat9 and httpd services are running or not if not run those services and now check the ports which are in listening mode and save the output in ports_service.txt
 40.	Check the connectivity to 8.8.8.8 and save it connect.txt in the push it into submission directory.
 	ping 8.8.8.8 >> connect.txt
@@ -76,5 +77,5 @@ Grey" > Colors.txt
 	traceroute www.google.com >> connect_url.txt
 	mv connect_url.txt ./submision
 42.	I want to know the ip address and hostname of your server. Save it host_details.txt in push it into submission directory.
-	hostname -I && hostname hostname -i >> hostdetails.txt
+	hostname -I && hostname >> hostdetails.txt
 	mv hostdetails.txt ./submision
